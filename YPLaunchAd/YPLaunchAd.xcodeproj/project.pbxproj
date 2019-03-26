@@ -103,6 +103,7 @@
 			children = (
 				D5B1A35B224A016300EC3498 /* AppDelegate.h */,
 				D5B1A35C224A016300EC3498 /* AppDelegate.m */,
+				D5B1A38E224A03D900EC3498 /* YPLanuchAd */,
 				D5B1A38D224A025C00EC3498 /* SupportFile */,
 			);
 			path = YPLaunchAd;
@@ -138,6 +139,13 @@
 				D5B1A36A224A016900EC3498 /* main.m */,
 			);
 			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		D5B1A38E224A03D900EC3498 /* YPLanuchAd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YPLanuchAd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
