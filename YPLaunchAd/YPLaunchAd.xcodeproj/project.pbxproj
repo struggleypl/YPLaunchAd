@@ -15,6 +15,26 @@
 		D5B1A36B224A016900EC3498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A36A224A016900EC3498 /* main.m */; };
 		D5B1A375224A016A00EC3498 /* YPLaunchAdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A374224A016A00EC3498 /* YPLaunchAdTests.m */; };
 		D5B1A380224A016A00EC3498 /* YPLaunchAdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A37F224A016A00EC3498 /* YPLaunchAdUITests.m */; };
+		D5B1A396224A049D00EC3498 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A392224A049D00EC3498 /* FLAnimatedImage.m */; };
+		D5B1A397224A049D00EC3498 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A393224A049D00EC3498 /* FLAnimatedImageView.m */; };
+		D5B1A3AE224A04B700EC3498 /* YPLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A398224A04B500EC3498 /* YPLaunchAdCache.m */; };
+		D5B1A3AF224A04B700EC3498 /* YPLaunchAdImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A39B224A04B500EC3498 /* YPLaunchAdImageManager.m */; };
+		D5B1A3B0224A04B700EC3498 /* YPLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A39E224A04B600EC3498 /* YPLaunchImageView.m */; };
+		D5B1A3B1224A04B700EC3498 /* YPLaunchAdConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A39F224A04B600EC3498 /* YPLaunchAdConst.m */; };
+		D5B1A3B2224A04B700EC3498 /* YPLaunchAdButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3A0224A04B600EC3498 /* YPLaunchAdButton.m */; };
+		D5B1A3B3224A04B700EC3498 /* YPLaunchAdImageView+YPLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3A3224A04B600EC3498 /* YPLaunchAdImageView+YPLaunchAdCache.m */; };
+		D5B1A3B4224A04B700EC3498 /* YPLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3A5224A04B600EC3498 /* YPLaunchAdView.m */; };
+		D5B1A3B5224A04B700EC3498 /* YPLaunchAdDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3A8224A04B700EC3498 /* YPLaunchAdDownloader.m */; };
+		D5B1A3B6224A04B700EC3498 /* YPLaunchAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3AA224A04B700EC3498 /* YPLaunchAdController.m */; };
+		D5B1A3B7224A04B700EC3498 /* YPLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3AC224A04B700EC3498 /* YPLaunchAd.m */; };
+		D5B1A3B8224A04B700EC3498 /* YPLaunchAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3AD224A04B700EC3498 /* YPLaunchAdConfiguration.m */; };
+		D5B1A3BB224A066600EC3498 /* YPLaunchAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3BA224A066600EC3498 /* YPLaunchAdManager.m */; };
+		D5B1A3C3224A085400EC3498 /* YPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3C2224A085400EC3498 /* YPWebViewController.m */; };
+		D5B1A3C6224A087500EC3498 /* YPLaunchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3C5224A087500EC3498 /* YPLaunchRequest.m */; };
+		D5B1A3C9224A089300EC3498 /* LanuchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3C8224A089300EC3498 /* LanuchAdModel.m */; };
+		D5B1A3D0224A0B9800EC3498 /* YPRouteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A3CF224A0B9800EC3498 /* YPRouteUtils.m */; };
+		D5B1A3FC224A113B00EC3498 /* LaunchImageAd.json in Resources */ = {isa = PBXBuildFile; fileRef = D5B1A3FA224A113A00EC3498 /* LaunchImageAd.json */; };
+		D5B1A3FD224A113B00EC3498 /* LaunchVideoAd.json in Resources */ = {isa = PBXBuildFile; fileRef = D5B1A3FB224A113B00EC3498 /* LaunchVideoAd.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,44 @@
 		D5B1A37B224A016A00EC3498 /* YPLaunchAdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPLaunchAdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B1A37F224A016A00EC3498 /* YPLaunchAdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLaunchAdUITests.m; sourceTree = "<group>"; };
 		D5B1A381224A016A00EC3498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B1A392224A049D00EC3498 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		D5B1A393224A049D00EC3498 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		D5B1A394224A049D00EC3498 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		D5B1A395224A049D00EC3498 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		D5B1A398224A04B500EC3498 /* YPLaunchAdCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLaunchAdCache.m; sourceTree = "<group>"; };
+		D5B1A399224A04B500EC3498 /* YPLaunchAdButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLaunchAdButton.h; sourceTree = "<group>"; };
+		D5B1A39A224A04B500EC3498 /* YPLaunchAdDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLaunchAdDownloader.h; sourceTree = "<group>"; };
+		D5B1A39B224A04B500EC3498 /* YPLaunchAdImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLaunchAdImageManager.m; sourceTree = "<group>"; };
+		D5B1A39C224A04B500EC3498 /* YPLaunchAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLaunchAdConfiguration.h; sourceTree = "<group>"; };
+		D5B1A39D224A04B600EC3498 /* YPLaunchAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLaunchAd.h; sourceTree = "<group>"; };
+		D5B1A39E224A04B600EC3498 /* YPLaunchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLaunchImageView.m; sourceTree = "<group>"; };
+		D5B1A39F224A04B600EC3498 /* YPLaunchAdConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLaunchAdConst.m; sourceTree = "<group>"; };
+		D5B1A3A0224A04B600EC3498 /* YPLaunchAdButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLaunchAdButton.m; sourceTree = "<group>"; };
+		D5B1A3A1224A04B600EC3498 /* YPLaunchAdCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLaunchAdCache.h; sourceTree = "<group>"; };
+		D5B1A3A2224A04B600EC3498 /* YPLaunchAdImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLaunchAdImageManager.h; sourceTree = "<group>"; };
+		D5B1A3A3224A04B600EC3498 /* YPLaunchAdImageView+YPLaunchAdCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YPLaunchAdImageView+YPLaunchAdCache.m"; sourceTree = "<group>"; };
+		D5B1A3A4224A04B600EC3498 /* YPLaunchAdImageView+YPLaunchAdCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YPLaunchAdImageView+YPLaunchAdCache.h"; sourceTree = "<group>"; };
+		D5B1A3A5224A04B600EC3498 /* YPLaunchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLaunchAdView.m; sourceTree = "<group>"; };
+		D5B1A3A6224A04B600EC3498 /* YPLaunchAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLaunchAdController.h; sourceTree = "<group>"; };
+		D5B1A3A7224A04B600EC3498 /* YPLaunchAdConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLaunchAdConst.h; sourceTree = "<group>"; };
+		D5B1A3A8224A04B700EC3498 /* YPLaunchAdDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLaunchAdDownloader.m; sourceTree = "<group>"; };
+		D5B1A3A9224A04B700EC3498 /* YPLaunchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLaunchAdView.h; sourceTree = "<group>"; };
+		D5B1A3AA224A04B700EC3498 /* YPLaunchAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLaunchAdController.m; sourceTree = "<group>"; };
+		D5B1A3AB224A04B700EC3498 /* YPLaunchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLaunchImageView.h; sourceTree = "<group>"; };
+		D5B1A3AC224A04B700EC3498 /* YPLaunchAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLaunchAd.m; sourceTree = "<group>"; };
+		D5B1A3AD224A04B700EC3498 /* YPLaunchAdConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLaunchAdConfiguration.m; sourceTree = "<group>"; };
+		D5B1A3B9224A066600EC3498 /* YPLaunchAdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPLaunchAdManager.h; sourceTree = "<group>"; };
+		D5B1A3BA224A066600EC3498 /* YPLaunchAdManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLaunchAdManager.m; sourceTree = "<group>"; };
+		D5B1A3C1224A085400EC3498 /* YPWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPWebViewController.h; sourceTree = "<group>"; };
+		D5B1A3C2224A085400EC3498 /* YPWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPWebViewController.m; sourceTree = "<group>"; };
+		D5B1A3C4224A087500EC3498 /* YPLaunchRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPLaunchRequest.h; sourceTree = "<group>"; };
+		D5B1A3C5224A087500EC3498 /* YPLaunchRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLaunchRequest.m; sourceTree = "<group>"; };
+		D5B1A3C7224A089300EC3498 /* LanuchAdModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanuchAdModel.h; sourceTree = "<group>"; };
+		D5B1A3C8224A089300EC3498 /* LanuchAdModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanuchAdModel.m; sourceTree = "<group>"; };
+		D5B1A3CE224A0B9800EC3498 /* YPRouteUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPRouteUtils.h; sourceTree = "<group>"; };
+		D5B1A3CF224A0B9800EC3498 /* YPRouteUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPRouteUtils.m; sourceTree = "<group>"; };
+		D5B1A3FA224A113A00EC3498 /* LaunchImageAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchImageAd.json; sourceTree = "<group>"; };
+		D5B1A3FB224A113B00EC3498 /* LaunchVideoAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchVideoAd.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +161,9 @@
 			children = (
 				D5B1A35B224A016300EC3498 /* AppDelegate.h */,
 				D5B1A35C224A016300EC3498 /* AppDelegate.m */,
+				D5B1A3B9224A066600EC3498 /* YPLaunchAdManager.h */,
+				D5B1A3BA224A066600EC3498 /* YPLaunchAdManager.m */,
+				D5B1A3BC224A07C500EC3498 /* Advertisement */,
 				D5B1A38E224A03D900EC3498 /* YPLanuchAd */,
 				D5B1A38D224A025C00EC3498 /* SupportFile */,
 			);
@@ -144,8 +205,107 @@
 		D5B1A38E224A03D900EC3498 /* YPLanuchAd */ = {
 			isa = PBXGroup;
 			children = (
+				D5B1A391224A049D00EC3498 /* FLAnimatedImage */,
+				D5B1A38F224A048200EC3498 /* Ad */,
 			);
 			path = YPLanuchAd;
+			sourceTree = "<group>";
+		};
+		D5B1A38F224A048200EC3498 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				D5B1A39D224A04B600EC3498 /* YPLaunchAd.h */,
+				D5B1A3AC224A04B700EC3498 /* YPLaunchAd.m */,
+				D5B1A399224A04B500EC3498 /* YPLaunchAdButton.h */,
+				D5B1A3A0224A04B600EC3498 /* YPLaunchAdButton.m */,
+				D5B1A3A1224A04B600EC3498 /* YPLaunchAdCache.h */,
+				D5B1A398224A04B500EC3498 /* YPLaunchAdCache.m */,
+				D5B1A39C224A04B500EC3498 /* YPLaunchAdConfiguration.h */,
+				D5B1A3AD224A04B700EC3498 /* YPLaunchAdConfiguration.m */,
+				D5B1A3A7224A04B600EC3498 /* YPLaunchAdConst.h */,
+				D5B1A39F224A04B600EC3498 /* YPLaunchAdConst.m */,
+				D5B1A3A6224A04B600EC3498 /* YPLaunchAdController.h */,
+				D5B1A3AA224A04B700EC3498 /* YPLaunchAdController.m */,
+				D5B1A39A224A04B500EC3498 /* YPLaunchAdDownloader.h */,
+				D5B1A3A8224A04B700EC3498 /* YPLaunchAdDownloader.m */,
+				D5B1A3A2224A04B600EC3498 /* YPLaunchAdImageManager.h */,
+				D5B1A39B224A04B500EC3498 /* YPLaunchAdImageManager.m */,
+				D5B1A3A4224A04B600EC3498 /* YPLaunchAdImageView+YPLaunchAdCache.h */,
+				D5B1A3A3224A04B600EC3498 /* YPLaunchAdImageView+YPLaunchAdCache.m */,
+				D5B1A3A9224A04B700EC3498 /* YPLaunchAdView.h */,
+				D5B1A3A5224A04B600EC3498 /* YPLaunchAdView.m */,
+				D5B1A3AB224A04B700EC3498 /* YPLaunchImageView.h */,
+				D5B1A39E224A04B600EC3498 /* YPLaunchImageView.m */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		D5B1A391224A049D00EC3498 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				D5B1A394224A049D00EC3498 /* FLAnimatedImage.h */,
+				D5B1A392224A049D00EC3498 /* FLAnimatedImage.m */,
+				D5B1A395224A049D00EC3498 /* FLAnimatedImageView.h */,
+				D5B1A393224A049D00EC3498 /* FLAnimatedImageView.m */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		D5B1A3BC224A07C500EC3498 /* Advertisement */ = {
+			isa = PBXGroup;
+			children = (
+				D5B1A3CD224A0B8300EC3498 /* RouteUtils */,
+				D5B1A3C0224A080500EC3498 /* ViewController */,
+				D5B1A3BF224A080500EC3498 /* View */,
+				D5B1A3BD224A080500EC3498 /* Model */,
+				D5B1A3BE224A080500EC3498 /* Biz */,
+			);
+			path = Advertisement;
+			sourceTree = "<group>";
+		};
+		D5B1A3BD224A080500EC3498 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5B1A3C7224A089300EC3498 /* LanuchAdModel.h */,
+				D5B1A3C8224A089300EC3498 /* LanuchAdModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D5B1A3BE224A080500EC3498 /* Biz */ = {
+			isa = PBXGroup;
+			children = (
+				D5B1A3C4224A087500EC3498 /* YPLaunchRequest.h */,
+				D5B1A3C5224A087500EC3498 /* YPLaunchRequest.m */,
+				D5B1A3FA224A113A00EC3498 /* LaunchImageAd.json */,
+				D5B1A3FB224A113B00EC3498 /* LaunchVideoAd.json */,
+			);
+			path = Biz;
+			sourceTree = "<group>";
+		};
+		D5B1A3BF224A080500EC3498 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D5B1A3C0224A080500EC3498 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D5B1A3C1224A085400EC3498 /* YPWebViewController.h */,
+				D5B1A3C2224A085400EC3498 /* YPWebViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D5B1A3CD224A0B8300EC3498 /* RouteUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D5B1A3CE224A0B9800EC3498 /* YPRouteUtils.h */,
+				D5B1A3CF224A0B9800EC3498 /* YPRouteUtils.m */,
+			);
+			path = RouteUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +411,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B1A3FD224A113B00EC3498 /* LaunchVideoAd.json in Resources */,
 				D5B1A368224A016900EC3498 /* LaunchScreen.storyboard in Resources */,
+				D5B1A3FC224A113B00EC3498 /* LaunchImageAd.json in Resources */,
 				D5B1A365224A016900EC3498 /* Assets.xcassets in Resources */,
 				D5B1A363224A016300EC3498 /* Main.storyboard in Resources */,
 			);
@@ -278,9 +440,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B1A3D0224A0B9800EC3498 /* YPRouteUtils.m in Sources */,
+				D5B1A396224A049D00EC3498 /* FLAnimatedImage.m in Sources */,
 				D5B1A360224A016300EC3498 /* ViewController.m in Sources */,
+				D5B1A3B7224A04B700EC3498 /* YPLaunchAd.m in Sources */,
+				D5B1A3C9224A089300EC3498 /* LanuchAdModel.m in Sources */,
+				D5B1A3B1224A04B700EC3498 /* YPLaunchAdConst.m in Sources */,
+				D5B1A3AE224A04B700EC3498 /* YPLaunchAdCache.m in Sources */,
+				D5B1A397224A049D00EC3498 /* FLAnimatedImageView.m in Sources */,
+				D5B1A3B5224A04B700EC3498 /* YPLaunchAdDownloader.m in Sources */,
+				D5B1A3C6224A087500EC3498 /* YPLaunchRequest.m in Sources */,
 				D5B1A36B224A016900EC3498 /* main.m in Sources */,
 				D5B1A35D224A016300EC3498 /* AppDelegate.m in Sources */,
+				D5B1A3B2224A04B700EC3498 /* YPLaunchAdButton.m in Sources */,
+				D5B1A3C3224A085400EC3498 /* YPWebViewController.m in Sources */,
+				D5B1A3B6224A04B700EC3498 /* YPLaunchAdController.m in Sources */,
+				D5B1A3AF224A04B700EC3498 /* YPLaunchAdImageManager.m in Sources */,
+				D5B1A3B8224A04B700EC3498 /* YPLaunchAdConfiguration.m in Sources */,
+				D5B1A3B0224A04B700EC3498 /* YPLaunchImageView.m in Sources */,
+				D5B1A3BB224A066600EC3498 /* YPLaunchAdManager.m in Sources */,
+				D5B1A3B4224A04B700EC3498 /* YPLaunchAdView.m in Sources */,
+				D5B1A3B3224A04B700EC3498 /* YPLaunchAdImageView+YPLaunchAdCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,17 +631,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLK9ZU88GV;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = YPLaunchAd/SupportFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tutu.YPLaunchAd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,17 +651,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLK9ZU88GV;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = YPLaunchAd/SupportFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tutu.YPLaunchAd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
