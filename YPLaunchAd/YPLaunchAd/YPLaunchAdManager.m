@@ -8,7 +8,6 @@
 
 #import "YPLaunchAdManager.h"
 #import "YPLaunchAd.h"
-#import "YPLaunchAdManager.h"
 #import "YPLaunchRequest.h"
 #import "YPWebViewController.h"
 #import "YPRouteUtils.h"
